@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+.logoo{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+.logoo img{
+    width: 10vw;
+    height: 15vh;
+}
+.logo{
+    margin-left: 3%;
+    width: 12vw;
+    height: 15vh;
+}
+
+.search{
+    width: 40vw;
+    height: 6vh;
+    position: absolute;
+}
+.search i{
+    position: absolute;
+    color: black;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.search input{
+    width: 40vw;
+    height: 6vh;
+    margin-left: 34%;
+    padding-left: 50px;
+    border-radius: 10px;
+    border: solid rgba(128, 128, 128, 0.108) 3px;
+    outline: none;
+}
+.bar i{
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    margin-left: -5vw;
+    margin-top: -9px;
+    font-size: 23px;
+}
+.area{
+    width: 12vw;
+    height: 6vh;
+    margin-left: 65vw;
+    margin-top: 19px;
+}
+.btn{
+    width: 18vw;
+    height: 6vh;
+    margin-top: 19px;
+}
+.btn button{
+    width: 6vw;
+    height: 4vh;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.679);
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(128, 128, 128, 0.108);
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10%; 
+    margin-right: 3%;
+}
+#ul1{
+    margin-left: 3%;
+}
+
+li{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.box1{
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-top: 10px;
+}
+.box1::-webkit-scrollbar{
+    display: none;
+}
+
+.b{
+    min-width: 95vw;
+    height: 45vh;
+    /* border: solid black 2px; */
+    background-color: azure;
+}
+.box1 img{
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.text{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.box2{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+}
+
+.c1{
+    width: 17vw;
+    height: 50vh;
+    /* background-color: aqua; */
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.c{
+    width: 17vw;
+    height: 50vh;
+    /* background-color: aqua; */
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 5px;
+    /* background-image: url("Assets/jagat.webp"); */
+    
+}
+#c2{
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC45LzEwICA4MC41SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00109952-crkelqxxgw-portrait.jpg");
+    background-size: cover;
+}
+#c3{
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-NS44LzEwICA3MC42SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00322647-cbcrakrkwb-portrait.jpg");
+    background-size: cover;
+}
+#c4{
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAyLjFLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00375399-tamzvqmnpb-portrait.jpg");
+    background-size: cover;
+}
+
+.p{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    border-radius: 5px;
+    object-fit: cover;
+    background-image: url("Assets/jagat.webp");
+    background-size: cover;
+}
+
+.box3{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(34, 34, 66, 0.968);
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.box3 i{
+    font-size: 62px;
+    position: absolute;
+    color: rgba(255, 0, 0, 0.641);
+    margin: 4%
+}
+.t1{
+    position: absolute;
+    margin: 4%;
+    margin-left: 10%;
+    color: white;
+    padding: 5px;
+}
+
+#o1{
+    margin-top: 15%;
+}
+#oo1{
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00396559-xlaxnmducf-portrait.jpg");
+    background-size: cover;
+}
+#o2{
+    margin-top: 15%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00395895-enfnthqmsh-portrait.jpg");
+    background-size: cover;
+
+}
+#o3{
+    margin-top: 15%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00393195-ljpnfpqmlx-portrait.jpg");
+    background-size: cover;
+
+}
+#o4{
+    margin-top: 15%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00358461-evrcyylbhn-portrait.jpg");
+    background-size: cover;
+
+}
+
+#e1{
+    height: 35vh;
+    margin-top: 10%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MyBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/bmshp-desktop-amusement-park-collection-202404190106.png");
+    background-size: cover;
+}
+#e2{
+    height: 35vh;
+    margin-top: 4%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-NiBFdmVudHM%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/interactive-games-collection-202211140440.png");
+    background-size: cover;
+}
+
+#e3{
+    height: 35vh;
+    margin-top: 4%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTUrIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/workshop-and-more-web-collection-202211140440.png");
+    background-size: cover;
+}
+#e4{
+    height: 35vh;
+    margin-top: 4%;
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:l-text,ie-MTArIEV2ZW50cw%3D%3D,co-FFFFFF,ff-Roboto,fs-64,lx-48,ly-320,tg-b,pa-8_0_0_0,l-end:w-300/theatre-shows-collection-202211140440.png");
+    background-size: cover;
+}
